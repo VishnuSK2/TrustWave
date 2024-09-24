@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(to right, #7b5eff, #da73d4);
+}
+a{
+    text-decoration: none;
+}
+#left{
+    background-image: url(https://i.pinimg.com/originals/c2/40/83/c2408317bd87e755f089ef8fcf8dd558.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:0 40px 40px 0;
+}
+img{
+    margin-top: 115px;
+}
+.container{
+    background-color: white;
+    width: 65%;
+}
+.btn{
+    background: linear-gradient(to bottom, #7b5eff, #da73d4);
+    color: white;
+    font-weight: bolder;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+span{
+    font-weight: bolder;
+    background: linear-gradient(to bottom, #7b5eff, #da73d4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-width: 320px) and (max-width: 424px) {
+    #left , img{
+        display: none;
+    }
+    #right{
+        width: 100%;
+    }
+    .container{
+        border-radius: 20px;
+        height:auto;
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    span{
+        font-size: 55px;
+    }
+    p{
+        text-align: center;
+        font-size: 18px;
+        margin: 0;
+    }   
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    #left , img{
+        display: none;
+    }
+    #right{
+        width: 100%;
+    }
+    .container{
+        border-radius: 20px;
+        height:auto;
+        width: 90%;
+        margin: auto;
+    }
+    span{
+        font-size: 75px;
+    }
+    p{
+        text-align: center;
+        font-size: 18px;
+        margin: 0;
+    }  
+}
+@media screen and (min-width: 769px) and (max-width: 1120px) {
+    #left , img{
+        display: none;
+    }
+    #right{
+        width: 100%;
+    }
+    .container{
+        border-radius: 20px;
+        height:auto;
+        width: 70%;
+        margin: auto;
+    }
+    span{
+        font-size: 75px;
+    }
+    p{
+        text-align: center;
+        font-size: 18px;
+        margin: 0;
+    }  
+}

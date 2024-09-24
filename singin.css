@@ -1,0 +1,107 @@
+body{
+    background: linear-gradient(to right, #7b5eff, #da73d4);
+}
+a{
+    text-decoration: none;
+}
+#left{
+    background-image: url(https://i.pinimg.com/originals/c2/40/83/c2408317bd87e755f089ef8fcf8dd558.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:40px 0 0 40px;
+}
+img{
+    margin-top: 115px;
+    max-width: 100%; /* Ensure the image scales */
+}
+.container{
+    background-color: white;
+    width: 65%;
+    margin: auto; /* Center the container */
+}
+.btn{
+    background: linear-gradient(to bottom, #7b5eff, #da73d4);
+    color: white;
+    font-weight: bolder;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+span{
+    font-weight: bolder;
+    background: linear-gradient(to bottom, #7b5eff, #da73d4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 479px) {
+    .container{
+        width: 90%;
+        padding: 10px;
+        border-radius: 20px;
+        height: 100%;
+    }
+    span{
+        font-size: 44px;
+    }
+    p{
+        font-size: 14px;
+    }
+    img{
+        margin-top: 80px;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .container{
+        width: 85%;
+        padding: 15px;
+    }
+    span{
+        font-size: 58px;
+    }
+    p{
+        font-size: 16px;
+    }
+    img{
+        margin-top: 90px;
+        display: none;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .container{
+        width: 65%;
+        margin: auto;
+        height: 100%;
+    }
+    span{
+        font-size: 62px;
+    }
+    img{
+        margin-top: 90px;
+        display: none;
+    }
+    #left{
+        display: none;
+    }
+    #right{
+        width: 100%;
+        margin: auto;
+    }
+   
+
+}
+@media screen and (min-width: 1441px) and (max-width: 3052px) {
+    .container{
+        width: 50%;
+    }
+    span{
+        font-size: 45px;
+    }
+}
